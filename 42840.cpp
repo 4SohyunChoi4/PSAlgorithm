@@ -11,40 +11,17 @@ vector<int> solution(vector<int> answers) { //정답이 순서대로 들은 배�
     
     int score1 = 0;
     int std1_size;
-    vector<int> std1; //1,2,3,4,5
-    std1.push_back(1);
-    std1.push_back(2);
-    std1.push_back(3);
-    std1.push_back(4);
-    std1.push_back(5);
+    vector<int> std1 = {1,2,3,4,5}; //1,2,3,4,5
     std1_size = std1.size();
     
     int score2 = 0;
     int std2_size;
-    vector<int> std2;    //2,1,2,3,2,4,2,5
-    std2.push_back(2);
-    std2.push_back(1);
-    std2.push_back(2);
-    std2.push_back(3);
-    std2.push_back(2);
-    std2.push_back(4);
-    std2.push_back(2);
-    std2.push_back(5);
+    vector<int> std2 = {2,1,2,3,2,4,2,5};
     std2_size = std2.size();
 
     int score3 = 0;
     int std3_size;
-    vector<int> std3; //3, 3, 1, 1, 2, 2, 4, 4, 5, 5, 
-    std3.push_back(3);
-    std3.push_back(3);
-    std3.push_back(1);
-    std3.push_back(1);
-    std3.push_back(2);
-    std3.push_back(2);
-    std3.push_back(4);
-    std3.push_back(4);
-    std3.push_back(5);
-    std3.push_back(5);
+    vector<int> std3 = {3, 3, 1, 1, 2, 2, 4, 4, 5, 5 };
     std3_size = std3.size();
 
     for(int i=0; i<answers.size(); i++){
